@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf8'/>
+        <title>{% block title %}{{ title }}{% endblock %}</title>
+
+        {% block style %}
+        {% endblock %}
+
+    </head>
+    {% set body_class="" %}
+    <body class="{{ body_class }}">
+        {% block header %}
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+
+        {% block footer %}
+        {% endblock %}
+    </body>
+        {% block script %}
+        {% endblock %}
+</html>
