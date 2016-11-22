@@ -1,0 +1,22 @@
+{
+  "name": "hera",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Jade"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/thousandsofyears/hera",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.0.8",
+    "d3": "^4.3.0"
+  }
+}
